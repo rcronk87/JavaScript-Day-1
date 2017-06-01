@@ -1,0 +1,54 @@
+body {
+  background-color: #8cb3f2;
+  background-image: url(img/background_png_by_axemgr-d4qitne.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+@keyframes cloud1 {
+  0% {transform: translateX(0vh);}
+  100% {transform: translateX(90vh);}
+}
+
+@keyframes cloud2 {
+  0% {transform: translateX(-100vh);}
+  50% {transform: rotate(-45deg);}
+  75% {transform: rotate(-20deg);}
+  80% {transform: rotate(-10deg);}
+  100% {transform: translateX(150vh);}
+}
+
+@keyframes pig {
+  0% {transform: translateX(-100vh); ;}
+  50% {transform: rotate(-45deg);}
+  75% {transform: rotate(-20deg); transform: translateY(30vh);}
+  80% {transform: rotate(-10deg);}
+  100% {transform: translateX(150vh); transform: translateY(0vh);}
+}
+
+
+
+.cloud1 {
+  z-index: 500;
+  width: 20%;
+  animation-name: cloud1;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  /* animation: cloud1 4s forwards*/
+}
+
+.cloud2 {
+  width: 10%;
+  animation-name: cloud2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  /* animation: cloud1 4s forwards*/
+}
+
+.pig {
+  width: 20%;
+  animation-name: pig;
+  animation-duration: 4s;
+  position: absolute;
+  top: 50vh;
+}

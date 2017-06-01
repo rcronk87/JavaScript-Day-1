@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+header .top3 .middle3 .last4 .footer {
+  flex: 1 100%
+}
+
+header {
+  background-color: #000000;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.top3{
+  background-color: #B2B2B2;
+}
+
+.middle3 {
+  background-color: #C9C27F;
+}
+
+
+.last4 {
+  background-color: #e49969;
+}
+
+@media all and (min-width: 600px) {
+  /*.wrapper {
+      flex-flow: row;
+    }*/
+}
