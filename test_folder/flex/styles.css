@@ -3,7 +3,7 @@
   flex-flow: column wrap;
 }
 
-header .top3 .middle3 .last4 .footer {
+header, .top3, .middle3, .last4, .footer {
   flex: 1 100%
 }
 
