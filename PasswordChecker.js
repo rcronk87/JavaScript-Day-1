@@ -38,7 +38,7 @@ function login(id, pw) {
   return checkUserId(id) && checkPassword(pw) && compare(id, pw)
   }
 
-// --Main Check--
+// --Main Check-- 
 function main() {
 var userIdent = prompt("Whats your user id?")
 var userPword = prompt("Whats your password?")

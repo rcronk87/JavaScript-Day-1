@@ -25,4 +25,4 @@ function lifeTimeSupply(age, amount) {
 function celsiusToFahrenheit(cel) {
   var fahr = cel*(9/5)+32;
   console.log(fahr);
-  }
+  } 
